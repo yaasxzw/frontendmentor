@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+/* font-family: 'Hanken Grotesk', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+}
+/* começo do header */
+header{
+    background-color: hsl(180, 29%, 50%); 
+    margin-bottom: 50px;
+}
+.img{
+    width: 100vw;
+}
+/* Fim do header */
+
+main , aside{
+    display: flex;
+    align-items: center;
+}
+.photo , img{
+    height: 100px;
+    padding-left: 300px; 
+    margin: 10px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(180, 29%, 50%);
+    font-size: 19px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.btn{
+    width: 50px;
+    height: 23px;
+    background-color: hsl(180, 29%, 50%);
+    border-radius: 10px;
+    margin: 10px;
+    color: #fff;
+}
+.btn-fea{
+    width: 100px;
+    height: 23px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
+.title{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
